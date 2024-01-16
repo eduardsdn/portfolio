@@ -1,11 +1,14 @@
-import Header from "./components/Header";
 import AppCSS from "./styles/app.module.css";
+
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className={AppCSS.app}>
       <Header />
-      <div className={AppCSS.container}></div>
+      <Hero></Hero>
+      {/* <div className={AppCSS.container}></div> */}
     </div>
   );
 }
