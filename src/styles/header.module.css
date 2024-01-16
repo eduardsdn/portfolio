@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 27px 60px 27px 60px;
+}
+
+.navigationLinks {
+  display: flex;
+  gap: 33px;
+}
+
+.navigationLink {
+  font-size: 20px;
+  font-weight: 500;
+}

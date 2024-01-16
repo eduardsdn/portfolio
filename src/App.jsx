@@ -1,10 +1,11 @@
 import Header from "./components/Header";
-import AppCSS from "./styles/app.module.scss";
+import AppCSS from "./styles/app.module.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={AppCSS.app}>
       <Header />
+      <div className={AppCSS.container}></div>
     </div>
   );
 }
