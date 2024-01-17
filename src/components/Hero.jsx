@@ -2,6 +2,8 @@ import HeroCSS from "../styles/hero.module.css";
 import profilePhoto from "../assets/images/Ellipse 1.png";
 import profilePhotoDecor from "../assets/images/Ellipse 2.svg";
 
+import resume from "../assets/resume.pdf";
+
 export default function Hero() {
   return (
     <section className={HeroCSS.hero}>
@@ -14,7 +16,10 @@ export default function Hero() {
           aliquid accusamus omnis. Quam distinctio facilis, explicabo et
           reiciendis adipisci eveniet similique{" "}
         </p>
-        <button className={HeroCSS.resumeBtn}>Download resume</button>
+
+        <a href={resume} download="Eduard Saadyan resume" target="_blank">
+          <button className={HeroCSS.resumeBtn}>Download resume</button>
+        </a>
       </section>
       <div className={HeroCSS.photoHolder}>
         <img className={HeroCSS.profilePhoto} src={profilePhoto} alt="" />

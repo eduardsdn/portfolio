@@ -1,6 +1,33 @@
 .app {
+  background: url("../assets/images/rose-petals.svg");
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position-x: center; */
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+
+.container {
   max-width: 1130px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
+}
+
+.projects {
+  margin-top: 50px;
+  gap: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  display: flex;
+}
+
+.projectsTitle {
+  color: #fff;
+  margin-top: 150px;
+  font-size: 44px;
+  font-weight: 700;
 }
