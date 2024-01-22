@@ -2,37 +2,91 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* max-width: 300px; */
   color: #fff;
+  width: 324px;
+}
+
+.links {
+  position: absolute;
+  z-index: 1;
+  /* width: 100%; */
+  /* background-color: black; */
+  top: 35%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.liveLink,
+.codeLink {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 2px 7px 2px 7px;
+}
+
+.liveLink:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.codeLink:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.projectImgHolder {
+  position: relative;
 }
 
 .projectImg {
   width: 100%;
-  height: 320px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.projectImgHover {
+  cursor: pointer;
+  opacity: 0.6;
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
 }
 
 .textContent {
-  /* height: 350px; */
   display: flex;
   flex-direction: column;
-  padding: 32px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-color: rgba(35, 9, 77, 0.6);
 }
 
 .title {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
 }
 
-.liveLink {
+/* .liveLink {
   margin-top: 15px;
   text-decoration: none;
   color: #ff6464;
+} */
+
+.techList {
+  margin-top: 15px;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.techListItem {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 2px 7px 2px 7px;
 }
 
 .description {

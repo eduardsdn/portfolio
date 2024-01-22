@@ -1,11 +1,11 @@
 .app {
-  background: url("../assets/images/rose-petals.svg");
-  /* background-position: center; */
   background-size: cover;
   background-attachment: fixed;
-  /* background-position-x: center; */
+  background-position-x: center;
   background-repeat: no-repeat;
-  padding-bottom: 150px;
+  background-image: url("../assets/images/blob_red.svg");
+  background-color: black;
+  padding-bottom: 200px;
 }
 
 .container {
@@ -17,12 +17,12 @@
 
 .projects {
   margin-top: 50px;
-  gap: 40px;
+  gap: 69px;
+  justify-content: center;
   color: #fff;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   border-radius: 8px;
-  display: flex;
 }
 
 .projectsTitle {
@@ -30,4 +30,14 @@
   margin-top: 150px;
   font-size: 44px;
   font-weight: 700;
+}
+
+@media (max-width: 1129px) {
+  .projectsTitle {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 769px;
+  }
 }
