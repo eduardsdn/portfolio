@@ -17,8 +17,11 @@
 
 .projects {
   margin-top: 50px;
-  gap: 69px;
-  justify-content: center;
+  /* gap: 69px; */
+  row-gap: 69px;
+  column-gap: 69px;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -39,5 +42,21 @@
 
   .container {
     max-width: 769px;
+  }
+}
+
+@media(max-width: 736px) {
+  .projects {
+    justify-content: center;
+  }
+}
+
+@media(max-width: 437px)  {
+.projects {
+  margin-top: 30px;
+}
+
+  .projectsTitle {
+    margin-top: 120px;
   }
 }

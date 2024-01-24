@@ -25,3 +25,25 @@
 .navigationLink img {
   width: 30px;
 }
+
+
+@media(max-width: 437px) {
+  .navigationLinks {
+    gap: 20px;
+  }
+
+  .navigationLink {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .navigationLink img {
+    width: 20px;
+  }
+
+}

@@ -1,6 +1,7 @@
 import HeroCSS from "../styles/hero.module.css";
-import profilePhoto from "../assets/images/Ellipse 1.png";
+// import profilePhoto from "../assets/images/Ellipse 1.png";
 import profilePhotoDecor from "../assets/images/Ellipse 2.svg";
+import profilePhoto from "../assets/images/portfolio_photo1.jpg"
 
 import resume from "../assets/resume.pdf";
 
@@ -12,9 +13,7 @@ export default function Hero() {
           Hi, I am Eduard Saadyan, Frontend Developer
         </h1>
         <p className={HeroCSS.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus iste
-          aliquid accusamus omnis. Quam distinctio facilis, explicabo et
-          reiciendis adipisci eveniet similique{" "}
+        I am a developer with a passion for building modern and creative user interfaces. I love learning and adapting new technologies, eager to contribute to awesome projects and solve challenging problems.
         </p>
 
         <a href={resume} download="Eduard Saadyan resume" target="_blank">

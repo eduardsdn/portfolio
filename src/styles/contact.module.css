@@ -16,3 +16,27 @@
   margin: 20px;
   font-size: 50px;
 }
+
+@media(max-width: 565px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .email {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 437px) {
+  .contact {
+    margin-top: 100px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .email {
+    font-size: 30px;
+  }
+}

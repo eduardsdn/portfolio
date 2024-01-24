@@ -57,13 +57,15 @@
 
 .profilePhoto {
   z-index: 1;
-  width: 350px;
+  width: 400px;
+  /* height: 350px; */
   position: relative;
+  border-radius: 50%;
 }
 
 .profilePhotoDecor {
   position: absolute;
-  width: 350px;
+  width: 400px;
   top: 12px;
   right: 12px;
 }
@@ -97,5 +99,11 @@
   .photoHolder {
     margin-bottom: 35px;
     order: 1;
+  }
+}
+
+@media(max-width: 437px)  {
+  .hero {
+    margin-top: 75px;
   }
 }

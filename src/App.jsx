@@ -1,12 +1,9 @@
 import React from "react";
-
 import AppCSS from "./styles/app.module.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ProjectCard from "./components/ProjectCard";
 import Contact from "./components/Contact";
-import ContactForm from "./components/ContactForm";
-
 import projectAudiophileImg from "./assets/images/audiophile.png";
 import projectBmiCalcImg from "./assets/images/bmicalc.png";
 import projectLobstersImg from "./assets/images/lobsters.png";
@@ -23,32 +20,42 @@ function App() {
   const projects = [
     {
       title: "BMI Calculator",
-      link: "https://eduardsdn.github.io/bmi_calculator/",
+      liveLink: "https://eduardsdn.github.io/bmi_calculator/",
+      codeLink: "https://github.com/eduardsdn/bmi_calculator",
+      hasCodeLink: true,
       description:
         "This single page React application assess Body Mass Index by calculating it in real time based on your height and weight and presents a health category. Application supports Metric and Imperial measurement systems.",
       img: projectBmiCalcImg,
       technologies: ["JavaScript", "React", "HTML", "CSS"],
+      
     },
     {
       title: "Lobsters landing page",
-      link: "https://lobsters.pro/",
+      liveLink: "https://lobsters.pro/",
+      hasCodeLink: false,
       description:
         "Developed a responsive and interactive landing page in collaboration with a team with of  UX/UI designer, project manager and a senior developer.",
       img: projectLobstersImg,
       technologies: ["JavaScript", "HTML", "CSS"],
+      
     },
     {
       title: "Audiophile",
       link: "https://eduardsdn.github.io/audiophile-ecommerce/",
+      codeLink: "https://github.com/eduardsdn/audiophile-ecommerce",
+      hasCodeLink: true,
       description:
         "An e-commerce website built utilizing React, React Router for navigation, and Redux for state management. UI is fully responsive supporting popular Desktop, tablet and phone screen sizes.",
       img: projectAudiophileImg,
       technologies: ["JavaScript", "React", "Redux", "HTML", "CSS"],
     },
     {
-      title: "Weather App",
+      title: "Weather widget",
+      liveLink: "https://eduardsdn.github.io/weather_app/",
+      codeLink: "https://github.com/eduardsdn/weather_app",
+      hasCodeLink: true,
       img: projectWeatherAppImg,
-      technologies: ["JavaScript", "REST API", "HTML", "CSS"],
+      technologies: ["JavaScript", "HTML", "CSS"],
     },
   ];
 
@@ -65,7 +72,9 @@ function App() {
                 key={project.title}
                 img={project.img}
                 title={project.title}
-                link={project.link}
+                liveLink={project.liveLink}
+                codeLink={project.codeLink}
+                hasCodeLink={project.hasCodeLink}
                 description={project.description}
                 technologies={project.technologies}
               />
