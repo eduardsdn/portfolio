@@ -19,41 +19,37 @@ function App() {
 
   const projects = [
     {
-      title: "BMI Calculator",
-      liveLink: "https://eduardsdn.github.io/bmi_calculator/",
-      codeLink: "https://github.com/eduardsdn/bmi_calculator",
-      hasCodeLink: true,
-      description:
-        "This single page React application assess Body Mass Index by calculating it in real time based on your height and weight and presents a health category. Application supports Metric and Imperial measurement systems.",
-      img: projectBmiCalcImg,
-      technologies: ["JavaScript", "React", "HTML", "CSS"],
-      
-    },
-    {
       title: "Lobsters landing page",
       liveLink: "https://lobsters.pro/",
       hasCodeLink: false,
-      description:
-        "Developed a responsive and interactive landing page in collaboration with a team with of  UX/UI designer, project manager and a senior developer.",
+      description: "Marketing agency website",
       img: projectLobstersImg,
       technologies: ["JavaScript", "HTML", "CSS"],
-      
     },
     {
       title: "Audiophile",
       link: "https://eduardsdn.github.io/audiophile-ecommerce/",
       codeLink: "https://github.com/eduardsdn/audiophile-ecommerce",
       hasCodeLink: true,
-      description:
-        "An e-commerce website built utilizing React, React Router for navigation, and Redux for state management. UI is fully responsive supporting popular Desktop, tablet and phone screen sizes.",
+      description: "E-commerce website",
       img: projectAudiophileImg,
       technologies: ["JavaScript", "React", "Redux", "HTML", "CSS"],
+    },
+    {
+      title: "BMI Calculator",
+      liveLink: "https://eduardsdn.github.io/bmi_calculator/",
+      codeLink: "https://github.com/eduardsdn/bmi_calculator",
+      hasCodeLink: true,
+      description: "BMI Calculator with health advise",
+      img: projectBmiCalcImg,
+      technologies: ["JavaScript", "React", "HTML", "CSS"],
     },
     {
       title: "Weather widget",
       liveLink: "https://eduardsdn.github.io/weather_app/",
       codeLink: "https://github.com/eduardsdn/weather_app",
       hasCodeLink: true,
+      description: "Get current weather by location",
       img: projectWeatherAppImg,
       technologies: ["JavaScript", "HTML", "CSS"],
     },

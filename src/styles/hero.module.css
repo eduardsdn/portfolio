@@ -29,7 +29,7 @@
 
 .description {
   margin-top: 40px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .resumeBtn {
@@ -71,6 +71,13 @@
 }
 
 @media (max-width: 1129px) {
+  .profilePhoto {
+    width: 300px;
+  }
+  .profilePhotoDecor {
+    width: 300px;
+  }
+
   .title {
     font-size: 35px;
     line-height: 44px;
@@ -102,8 +109,21 @@
   }
 }
 
-@media(max-width: 437px)  {
+@media (max-width: 437px) {
   .hero {
     margin-top: 75px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .description {
+    margin-top: 20px;
+  }
+
+  .resumeBtn {
+    margin-top: 20px;
   }
 }

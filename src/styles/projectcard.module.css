@@ -9,10 +9,6 @@
 .links {
   position: absolute;
   z-index: 1;
-  /* width: 100%; */
-  /* background-color: black; */
-  /* top: 35%;
-  left: 27%; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,12 +69,6 @@
   font-weight: 700;
 }
 
-/* .liveLink {
-  margin-top: 15px;
-  text-decoration: none;
-  color: #ff6464;
-} */
-
 .techList {
   margin-top: 15px;
   max-width: 300px;
@@ -94,8 +84,6 @@
 }
 
 .description {
-  margin-top: 15px;
-  max-width: 500px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }

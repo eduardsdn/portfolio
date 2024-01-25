@@ -21,6 +21,7 @@ export default function Header(props) {
           <li className={HeaderCSS.navigationLinkHolder}>
             <a
               className={HeaderCSS.navigationLink}
+              target="_blank"
               href="https://github.com/eduardsdn"
             >
               <img src={gitHubIcon} />
@@ -30,6 +31,7 @@ export default function Header(props) {
           <li className={HeaderCSS.navigationLinkHolder}>
             <a
               className={HeaderCSS.navigationLink}
+              target="_blank"
               href="https://www.linkedin.com/in/eduard-saadyan-b67a05299/"
             >
               <img src={linkedInIcon} />

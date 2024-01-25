@@ -17,7 +17,7 @@
   font-size: 50px;
 }
 
-@media(max-width: 565px) {
+@media (max-width: 565px) {
   .title {
     font-size: 30px;
   }
@@ -27,7 +27,7 @@
   }
 }
 
-@media(max-width: 437px) {
+@media (max-width: 437px) {
   .contact {
     margin-top: 100px;
   }
