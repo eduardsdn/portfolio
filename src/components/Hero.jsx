@@ -18,7 +18,12 @@ export default function Hero() {
           challenging problems, learn new technologies and master the craft.
         </p>
 
-        <a href={resume} download="Eduard Saadyan resume" target="_blank">
+        <a
+          href={resume}
+          download="Eduard Saadyan resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className={HeroCSS.resumeBtn}>Download resume</button>
         </a>
       </section>
